@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Woodfired Restaurant - Contact</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"> <!--social media links-->
+   
+</head>
+<body>
+	<script src="javascript/contact.js" defer> </script>
+    <header>   
+     <img src="images\Restaurant-Logo-White.png" alt="Woodfired Restaurant Logo" class="logo">
+    </header>
+        
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="menu.html">Menu</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html" class="active">Contact</a></li>
+            </ul>
+        </nav>
+   
+
+<main>
+	<Section class="contact">
+            <h1>Contact Us</h1>
+            <hr/>
+            <h2>We are a small restaurant situated in Aviemore in the heart of the Cairngorms National park. We are happy to take bookings and have a space for special events.</h2>    
+        </Section>    
+        
+        <div class="email">
+             <p>To book a table or special event, email us at <a href="mailto:bookings@woodfired.com"> bookings@woodfired.com</a>   <strong> OR </strong> for general inquiries, email <a href="mailto:info@woodfired.com"> info@woodfired.com </a></p>
+        </div>
+        
+           
+        <div class="form">
+        <h3> You can also get in touch by completing the form below:</h3>
+        <form class="my-form" id="my-form" name="my-form" onsubmit="return validateForm()">
+			<div class="form-group">
+				<label for="name"> Name:</label>
+				<input type="text" name="name" placeholder="Enter your name" required>
+			</div>
+            <div class="form-group">
+				<label for="email">Email:</label>
+				<input type="email" name="email" placeholder="Email address" required >
+			</div>
+			<div class="form-group">
+				<label for="messsage">Message:</label>
+				<textarea name="messsage" placeholder="Please tell us as to how we can help you" required></textarea>
+			</div>
+			<br>
+			<input class="button" type="submit" value="Submit" name="Submit">
+        </form> 
+        </div>
+
+  
+    <a href="#" class="top-link">Back to Top</a>
+</main>
+
+<footer class="bottom">
+        <p> Woodfired Pizza, 1 Grampian Rd, Aviemore PH22 1P</p>
+        <p>&copy; 2025 Woodfired Restaurant. All rights reserved.</p>
+      <div class="social-links">
+        <a href="https://facebook.com/yourpage" aria-label="Facebook"><i class="fab fa-facebook"></i></a>
+        <a href="https://twitter.com/yourhandle" aria-label="Twitter"><i class="fab fa-twitter"></i></a> 
+        <a href="https://instagram.com/youraccount" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+        <a href="https://linkedin.com/in/yourprofile" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
+    </div>
+</footer>
+    <div style= margin-top: 400px;></div> <!--this just pushed everything up so you can see the bottom of the page-->
+</body>
+</html>
